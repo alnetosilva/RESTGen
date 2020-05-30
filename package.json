@@ -1,0 +1,25 @@
+{
+  "name": "restgenroteiro",
+  "version": "1.0.0",
+  "description": "Roteiro para desenvovimento do RESTGen e aulas",
+  "main": "api/bin/app.js",
+  "scripts": {
+    "test": "nodemon api/bin/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alnetosilva/RESTGenRoteiro.git"
+  },
+  "keywords": [
+    "RESTGen",
+    "4Case",
+    "Neto",
+    "Silva"
+  ],
+  "author": "Neto Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alnetosilva/RESTGenRoteiro/issues"
+  },
+  "homepage": "https://github.com/alnetosilva/RESTGenRoteiro#readme"
+}
