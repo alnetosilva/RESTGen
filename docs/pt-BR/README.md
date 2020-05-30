@@ -1,3 +1,5 @@
+<div style="text-align: justify">
+
 # Documentação pt-BR
 Se você deseja aprender a usar o RESTGen, é por aqui que deve começar escolha uma das opções abaixo!
 
@@ -13,3 +15,5 @@ A documentação de desenvolvimento, é o roteiro de desenvolvimento do RESTGen.
 * 02 - NodeJS. Vamos criar nossa aplicação em JavaScript!
   * Clique aqui para vídeo aula
   * Clique aqui para leitura
+
+  </div>

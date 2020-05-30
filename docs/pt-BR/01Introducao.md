@@ -1,5 +1,7 @@
 # API REST
 
+<div style="text-align: justify">
+
 Uma **API** (Application Programming Interface) ou _**Interface de Programação de Aplicações**_ é um conjunto de rotinas e padrões por trás de uma sistema para que ela possa fornecer serviços para outros sistemas sem que essas outras aplicações precisem conhecer detalhes de implementação ou de manipulação dessas informações.
 
 Basicamente, ao consumir dados através de uma API, uma aplicação precisa fornecer unicamente detalhes sobre as informações que deseja imputar ou consultar em uma determinada URL (rota) e toda a mágica será feita pela aplicação de forma transparente.
@@ -9,3 +11,5 @@ Basicamente, ao consumir dados através de uma API, uma aplicação precisa forn
 Quando um sistema tem a capacidade de aplicar princípios REST é chamado **RESTFull**.
 
 [Voltar](./README.md) <---- | ----> [Avançar](./02NodeJSeFastify.md)
+
+</div>
