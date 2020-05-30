@@ -11,7 +11,10 @@ A documentação de desenvolvimento, é o roteiro de desenvolvimento do RESTGen.
   * Clique aqui para vídeo aula
   * Clique [aqui](./01Introducao.md) para leitura
 
-* 02 - NodeJS. Vamos criar nossa aplicação em JavaScript!
+* 02 - NodeJS. Nossa primeira aplicação em JS.
   * Clique aqui para vídeo aula
-  * Clique aqui para leitura
+  * Clique [aqui](./02NodeJS.md) para leitura
 
+* 03 - Fastify. Um framework REST rápido e completo!
+  * Clique aqui para vídeo aula
+  * Clique [aqui](./03Fastify.md) para leitura
