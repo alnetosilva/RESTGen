@@ -8,4 +8,4 @@ Basicamente, ao consumir dados através de uma API, uma aplicação precisa forn
 
 Quando um sistema tem a capacidade de aplicar princípios REST é chamado **RESTFull**.
 
-[Voltar](./README.md) <---- | ----> [Avançar](./02NodeJS.md)
+[Voltar](./README.md) <---- | ----> [Avançar](./02NodeJSeFastify.md)
