@@ -1,6 +1,5 @@
 # Documentação pt-BR
 
-<div style="text-align: justify">
 Se você deseja aprender a usar o RESTGen, é por aqui que deve começar escolha uma das opções abaixo!
 
 ## Se deseja desenvolver uma API REST usando o RestGen, clique AQUI
@@ -16,4 +15,3 @@ A documentação de desenvolvimento, é o roteiro de desenvolvimento do RESTGen.
   * Clique aqui para vídeo aula
   * Clique aqui para leitura
 
-</div>
