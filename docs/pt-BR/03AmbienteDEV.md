@@ -31,4 +31,4 @@ $ dpkg -i code_numero_da_versao_amd64.deb
 *obs: onde está escrito "numero_da_versao" você coloca a versão do VSCode baixado. Recomendo o uso do <tab> para auto-completar.*
 
 
-[Anterior](./01Introducao.md) <---- | ----> [Avançar](./03Fastify.md)
+[Anterior](./02NodeJS.md) <---- | ----> [Avançar](./04Fastify.md)
