@@ -9,13 +9,43 @@ Basicamente, ao consumir dados através de uma API, uma aplicação precisa forn
 
 **REST** (Representational State Transfer) ou _**Transferência de Estado Representacional**_ é a capacidade que uma aplicação tem de se comunicar com outras utilizando representações como XML, JSON ou outros. Essas transferências são feitas utilizando métodos **HTTP** como **POST**, **GET**, **PUT** e **DELETE** que servem de meio de comunicação (interfaces) para transferência dessas representações de dados entre API e aplicações consumidoras.
 
-Request
+## Request
 
-![imgAPI](./../img/RESTReq.jpeg)
+![imgREQ](./../img/RESTReq.jpeg)
 
-Response
+Observe que o REST além dos metodos que são as compostos pelas rotas até cada transação mais o verbo da transação, tem as fases da negociação; a primeira delas é o request que é a requisição onde se incia uma nova transação.
 
-![imgAPI](./../img/RESTRes.jpg)
+Ainda seguindo o exemplo da nossa API, um cliente vai à um restaurante para comprar uma sopa. Ao chegar no balcão de atendimento, ele vai escolher seu pedido e fazer o pagamento por ele. Assim, na nossa API temos o POST, imagine que a rota é o cardápio onde nosso cliente vai escolher que tipo de sopa ele quer e o pagamento seja o estado representacional que ele vai fornecer (nesse caso dinheiro). Em programação o pagamento seria um estado representacional de algo que queremos consumir no caso da nossa API o estado que vamos usar serão informações em formato JSON. Na estrutura de um restaurante por exemplo, o dinheiro vai se transformar em sopa quando o dono do restaurando compra com o dinheiro os ingredientes da sopa e com o mesmo dinheiro paga o salário do cozinheiro da sopa e do garçon que irá servir-la ao cliente.
+
+Abaixo um estado representacional de request (cliente -> servidor):
+
+```
+
+POST: http://restaurante/cardapio/sopadecebola
+
+JSON: {
+  produto: sopa,
+  pagamento: valor_da_sopa
+}
+
+```
+
+
+## Response
+
+![imgRES](./../img/RESTRes.jpg)
+
+A segunda fase da negociação é o response que nada mais é do que a resposta da nossa requisição. Ainda no nosso restaurante, podemos imaginar os tipos de resposta. Imagine que o cliente fez um pagamento no cartão e não tinha saldo suficiente. Logo receberemos um 4XX onde o cliente não forneceu os dados corretamente e assim não pode comprar sua sopa pois as informações fornecidas no caso o pagamento, não foram condizentes com o esperado pelo nosso restaurante (API). No caso da nossa API teremos um pagina não encontrada 404 ou do restaurante a sopa não poderá ser vendida pois o cliente não pode pagar por ela.
+Ainda podemos ter os casos onde o cliente conseguiu pagar, mas quando chegou enviou o pedido para a cosinha o garçon foi informado de que não tinham os ingredientes para a sopa e então tivemos um 500 (erro interno) e o restaurante não pode fazer a venda da sopa.
+Por fim, temos o caso de sucesso onde o cliente escolheu a sopa e a sopa 200 OK (tudo certo e o pedido está a caminho) e então a sopa será entregue ao cliente que receberá assim o estado representacional que poderá ser consumido a SOPA.
+No caso do nosso sistema.
+
+```
+
+JSON {
+  produto: "sopa de cebola quentinha"
+}
+```
 
 Quando um sistema tem a capacidade de aplicar princípios REST é chamado **RESTFull**.
 
