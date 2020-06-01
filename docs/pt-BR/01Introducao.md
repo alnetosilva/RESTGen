@@ -23,7 +23,7 @@ Abaixo um estado representacional de request (cliente -> servidor):
 
 POST: http://restaurante/cardapio/sopadecebola
 
-JSON: {
+Estado representacional do pedido (JSON mas poderia ser XML ou outro) {
   produto: sopa,
   pagamento: valor_da_sopa
 }
@@ -42,7 +42,7 @@ No caso do nosso sistema.
 
 ```
 
-JSON {
+Estado representacional do produto sendo servido (JSON mas poderia ser XML ou outro) {
   produto: "sopa de cebola quentinha"
 }
 ```
