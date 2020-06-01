@@ -9,6 +9,14 @@ Basicamente, ao consumir dados através de uma API, uma aplicação precisa forn
 
 **REST** (Representational State Transfer) ou _**Transferência de Estado Representacional**_ é a capacidade que uma aplicação tem de se comunicar com outras utilizando representações como XML, JSON ou outros. Essas transferências são feitas utilizando métodos **HTTP** como **POST**, **GET**, **PUT** e **DELETE** que servem de meio de comunicação (interfaces) para transferência dessas representações de dados entre API e aplicações consumidoras.
 
+Request
+
+![imgAPI](./../img/RESTReq.jpeg)
+
+Response
+
+![imgAPI](./../img/RESTRes.jpg)
+
 Quando um sistema tem a capacidade de aplicar princípios REST é chamado **RESTFull**.
 
 [Voltar](./README.md) <---- | ----> [Avançar](./02NodeJS.md)
