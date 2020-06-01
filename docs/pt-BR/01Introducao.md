@@ -37,7 +37,7 @@ JSON: {
 
 A segunda fase da negociação é o response que nada mais é do que a resposta à nossa requisição. Ainda no nosso restaurante, podemos imaginar os tipos de resposta. Imagine que o cliente fez um pagamento no cartão e não tinha saldo suficiente. Logo receberemos um 4XX onde o cliente não forneceu os dados corretamente e assim não pode comprar sua sopa pois as informações fornecidas no caso o pagamento, não foram condizentes com o esperado pelo nosso restaurante (API). No caso da nossa API teremos um pagina não encontrada 404 ou do restaurante a sopa não poderá ser vendida pois o cliente não pode pagar por ela.
 Ainda podemos ter os casos onde o cliente conseguiu pagar, mas quando chegou enviou o pedido para a cosinha o garçon foi informado de que não tinham os ingredientes para a sopa e então tivemos um 500 (erro interno) e o restaurante não pode fazer a venda da sopa.
-Por fim, temos o caso de sucesso onde o cliente escolheu a sopa e a sopa 200 OK (tudo certo e o pedido está a caminho) e então a sopa será entregue ao cliente que receberá assim o estado representacional que poderá ser consumido a SOPA.
+Por fim, temos o caso de sucesso onde o cliente escolheu a sopa o garçon informou que estava a caminho (200 OK) e então a sopa será entregue ao cliente que receberá assim o estado representacional que poderá ser consumido a SOPA.
 No caso do nosso sistema.
 
 ```
