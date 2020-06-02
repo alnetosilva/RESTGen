@@ -18,7 +18,7 @@ Assim são as aplicações clientes e nossas API's, quando você abre um APP de 
 
 ![imgREQ](./../img/RESTReq.jpeg)
 
-Observe que o REST além dos metodos que são as compostos pelas rotas até cada transação mais o verbo da transação, tem as fases da negociação; a primeira delas é o request que é a requisição onde se incia uma nova transação.
+Observe que o REST, além dos métodos, que são: As rotas para cada transação mais o verbo da transação; tem as fases da negociação. A primeira delas é o request que é a requisição onde se inicia uma nova transação.
 
 Ainda seguindo o exemplo da nossa API, um cliente vai à um restaurante para comprar uma sopa. Ao chegar no balcão de atendimento, ele vai escolher seu pedido e fazer o pagamento por ele. Assim, na nossa API temos o POST, imagine que a rota é o cardápio onde nosso cliente vai escolher que tipo de sopa ele quer e o pagamento seja o estado representacional que ele vai fornecer (nesse caso dinheiro). Em programação o pagamento seria um estado representacional de algo que queremos consumir no caso da nossa API o estado que vamos usar serão informações em formato JSON. Na estrutura de um restaurante por exemplo, o dinheiro vai se transformar em sopa quando o dono do restaurando compra com o dinheiro os ingredientes da sopa e com o mesmo dinheiro paga o salário do cozinheiro da sopa e do garçon que irá servir-la ao cliente.
 
